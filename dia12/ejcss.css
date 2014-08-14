@@ -1,0 +1,27 @@
+/*Selector de un elemento*/
+h1{
+    color: blue;
+}
+/*---------------------------------------*/
+/*Selectores de id*/
+#primercb{
+    color: red;
+}
+
+#segundocb{
+    color: brown;
+}
+
+#tercercb{
+    color: yellow;
+}
+
+#cuartocb{
+    color: magenta;
+}
+
+/*-------------------------------------------*/
+/*Selectores de clase*/
+.parrafo{
+    color: green
+}
