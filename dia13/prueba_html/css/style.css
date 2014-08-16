@@ -1,12 +1,36 @@
+body{
+	font-family: "Helvetica", "Arial", "Helvetica Neue";
+}
+
 header img{
-	width:100px;
-	height:100px;
+	width:90px;
+	height:90px;
 	float:left;
 	margin-right: 15px;
 }
 
 header h1{
-	margin-top: 10px;
-	float: left;
-	text-transform: uppercase;
+	display:none;
+}
+
+header nav li{
+	/*float: left;*/
+	display: inline-block;
+	padding: 70px 40px;
+}
+
+header nav{
+	text-align: center;
+}
+
+header nav li a{
+	background-color: blue;
+	background-size: 100px, 100px;
+	color: white;
+	text-decoration: none;
+}
+
+header nav li a:hover{
+	color: blue;
+	background-color: white;
 }
