@@ -1,0 +1,84 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    accessor_utilities (1.0.4)
+    array (1.0.0)
+      array-compositing
+      array-hooked
+      array-sorted
+      array-sorted-compositing
+      array-sorted-unique
+      array-sorted-unique-compositing
+      array-unique
+      array-unique-compositing
+    array-compositing (1.0.8)
+      array-hooked
+    array-hooked (1.1.4)
+      identifies_as
+      module-cluster
+    array-sorted (1.1.2)
+      array-hooked
+    array-sorted-compositing (1.0.5)
+      array-compositing
+      array-sorted
+    array-sorted-unique (1.1.1)
+      array-sorted
+      array-unique
+    array-sorted-unique-compositing (1.0.3)
+      array-sorted-compositing
+      array-unique-compositing
+    array-unique (1.1.1)
+      array-hooked
+    array-unique-compositing (1.0.6)
+      array-compositing
+      array-unique
+    axiom-types (0.1.1)
+      descendants_tracker (~> 0.0.4)
+      ice_nine (~> 0.11.0)
+      thread_safe (~> 0.3, >= 0.3.1)
+    cascading_configuration (1.0.6)
+      accessor_utilities
+      array
+      hash
+      module-cluster
+      parallel_ancestry
+      to_camel_case
+    coercible (1.0.0)
+      descendants_tracker (~> 0.0.1)
+    descendants_tracker (0.0.4)
+      thread_safe (~> 0.3, >= 0.3.1)
+    equalizer (0.0.9)
+    hash (1.0.0)
+      hash-compositing
+      hash-hooked
+    hash-compositing (1.0.3)
+      hash-hooked
+    hash-hooked (1.2.1)
+      identifies_as
+    ice_nine (0.11.0)
+    identifies_as (1.1.1)
+    json (1.8.1)
+    minitest (5.4.0)
+    module-cluster (2.0.5)
+    parallel_ancestry (1.0.2)
+      array-unique
+      module-cluster
+    persistence (0.0.4)
+      cascading_configuration
+      module-cluster
+    thread_safe (0.3.4)
+    to_camel_case (1.0.0)
+    virtus (1.0.3)
+      axiom-types (~> 0.1)
+      coercible (~> 1.0)
+      descendants_tracker (~> 0.0, >= 0.0.3)
+      equalizer (~> 0.0, >= 0.0.9)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  json
+  minitest
+  persistence
+  virtus
